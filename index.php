@@ -51,8 +51,6 @@ function loop_size(Node $node): int {
 //Holiday V - SeaSick Snorkelling
 function sea_sick(string $s): string {
     // Write your code here
-    var_dump($s);
-    
     $up = 2*substr_count($s, '~_');
     $down = strlen($s);
     if (($down != 0) && ($up/$down >= 0.2)) {
